@@ -21,8 +21,9 @@ body {
    /* HEADER */
  .header {
     background: #E6F0FF;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 80px);
     display: flex;
+    align-items: center;
  }
   /* COMMON */
   .btn{
@@ -93,8 +94,14 @@ body {
     transition: 0.8s;
 }
 .hero{
-   margin-top: 130px;
+    margin-top: 130px;
 }
+
+
+/* #home.header .content{
+    display: flex;
+    align-self: center;
+} */
 .hero .sub-title{
 color: #687690;
 font-size: 1.8rem;
@@ -732,8 +739,8 @@ color: red;
     /* background: red; */
 }
 .fix-header{
-    padding-bottom: 20px;
-    padding-top:20px;
+    /* padding-bottom: 10px; */
+    /* padding-top:20px; */
     background-color: #E6F0FF;
     position: sticky;
     top:-20px;
