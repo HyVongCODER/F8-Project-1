@@ -21,7 +21,7 @@ body {
    /* HEADER */
  .header {
     background: #E6F0FF;
-    height: calc(100vh - 95px);
+    height: calc(100vh - 120px);
     display: flex;
  }
   /* COMMON */
@@ -290,7 +290,6 @@ background-image: linear-gradient(259deg, #f546f5 0%, #97e0e1 100%);
 }
 
 .feature h2{
-    padding-top:35px;
     display: inline-block;
  color: #000339;
  /* background-color: blue; */
@@ -398,6 +397,7 @@ letter-spacing: 0.14px;
 }
 
 .guide{
+    scroll-margin-top:300px;
     /* background-color: red; */
 }
 
@@ -413,6 +413,7 @@ letter-spacing: 0.14px;
     width: 1048px;
 }
 .stat{
+    scroll-margin-top:100px;
     height: 785px;
     margin-top: 75px;
     /* background-color: cornflowerblue; */
@@ -591,6 +592,9 @@ margin-top: 20px;
 
 
 /*=============== SCRT =========== */
+.scrt {
+    scroll-margin-top: 150px;
+}
 .scrt .body{
     width: 1110px;
     height: 409px;
