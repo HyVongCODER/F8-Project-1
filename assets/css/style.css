@@ -288,11 +288,9 @@ background-image: linear-gradient(259deg, #f546f5 0%, #97e0e1 100%);
 
     
 }
-.feature header{
-    /* background-color: rgb(68, 54, 28); */
-    /* padding-bottom: -70px; */
-}
+
 .feature h2{
+    padding-top:35px;
     display: inline-block;
  color: #000339;
  /* background-color: blue; */
