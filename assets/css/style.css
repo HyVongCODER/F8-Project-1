@@ -137,6 +137,20 @@ padding:17px 0px;
 
 }
    /* ============ CLIENTS ==========  */
+   .clients .images a{
+    padding: 20px 40px;
+    /* background: #FFF;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); */
+    
+   }
+   .clients .images a:hover{
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    
+   }
    .clients{
     height: 310px;
     margin-top: 30px;
