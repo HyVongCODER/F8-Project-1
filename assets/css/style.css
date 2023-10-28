@@ -19,6 +19,7 @@ body {
  .header {
     background: #E6F0FF;
     height: 100vh;
+    display: flex;
  }
   /* COMMON */
   .btn{
@@ -722,3 +723,12 @@ color: red;
 .footer .social a + a{
     margin-left: -20px;
 }
+.fix-header .nav-bar{
+    /* background: red; */
+}
+.fix-header{
+    padding-top:20px;
+    background-color: #E6F0FF;
+    position: sticky;
+    top:-20px;
+    z-index: 1;
