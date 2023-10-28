@@ -718,3 +718,7 @@ font-weight: 700;
 font-size: 3rem;
 color: red;
 }
+
+.footer .social a + a{
+    margin-left: -20px;
+}
